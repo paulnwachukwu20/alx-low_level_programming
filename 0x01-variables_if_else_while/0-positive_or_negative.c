@@ -8,7 +8,8 @@
 
 /*
  * main - Prints if number is positive, zero or negative
- * Description: This program will assign a random number to the variable
+ * Description: using the main function 
+ * this program prints programming is positive ,zero, or negative
  * Return: Always (Success)
  */
 
