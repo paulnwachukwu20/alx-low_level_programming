@@ -4,12 +4,10 @@
 
 #include <stdio.h>
 
-
-
-/**
+/*
  * main - Prints a text according number
  * Description: using the main function 
- * this program prints This program will assign a random number to the variable  * n each time it is executed
+ * this program prints This program will assign a random number to the variable
  * Return: Always (Success)
  */
 
