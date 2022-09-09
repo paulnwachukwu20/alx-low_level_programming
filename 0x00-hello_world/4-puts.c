@@ -4,24 +4,24 @@
 
 /**
 
- * main - print the string in the put function
-* main - print the string in the put function                                                                                                                             
+ * main - Prints "Programming is like building a multilingual
 
-*                                                                                                                                                                         
+ *                puzzle, followed by a new line.
 
-* Description: using the main function                                                                                                                                    
+ *
 
-* this program prints "programming is like the building a multilingual puzzle                                                                                             
+ * Return: Always 0.
 
-* Return: 0                                                                                                                                                               
+ */
 
-*/                                                                                                                                                                        
+int main(void)
 
-int main(void)                                                                                                                                                            
+{
 
-{ 
-         printf("Programming is like building a multilingual puzzle
-                return (0);                                                                                                                                                        
+	puts("\"Programming is like building a multilingual puzzle");
 
-}                                                                                                                                                                         
 
+
+	return (0);
+
+}
