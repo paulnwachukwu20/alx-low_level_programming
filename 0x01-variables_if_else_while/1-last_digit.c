@@ -9,7 +9,7 @@
  * main - Prints a text according number
  *
  * Description: using the main function
- * This program will assign a random number to the variable and print the last digit of the number stored in the variable n
+ * This program will assign a random number to the variable,print last digit n
  * Return: Always (Success)
  */
 
@@ -53,8 +53,6 @@ int main(void)
 	}
 
 
-
 	return (0);
-
 }
 
