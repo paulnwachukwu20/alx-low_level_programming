@@ -4,19 +4,18 @@
 
 #include <stdio.h>
 
-/*
+/**
  * main - Prints a text according number
  * Description: using the main function 
- * this program prints This program will assign a random number to the variable
+ * This program will assign a random number to the variable n 
+ * print the last digit of the number stored in the variable n.
  * Return: Always (Success)
  */
 
 int main(void)
 
 {
-
 	int n, lastd;
-
 
 
 	srand(time(0));
@@ -24,7 +23,6 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	lastd = n % 10;
-
 
 
 	if (lastd > 5)
@@ -52,8 +50,6 @@ int main(void)
 	}
 
 
-
 	return (0);
 
 }
-
