@@ -4,8 +4,8 @@
 
 /*
  * main - Prints "Programming is like building a multilingual
- * Description: using the main function 
- *                puzzle, followed by a new line.
+ *               description : using the main functiion 
+ *  
  *
  * Return: Always 0.
  */
