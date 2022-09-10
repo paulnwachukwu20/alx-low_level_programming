@@ -1,20 +1,19 @@
 #include <stdio.h>
 
-
-
-/*
- * main - Prints "Programming is like building a multilingual
- *               description : using the main functiion 
- *  
- *
- * Return: Always 0.
- */
+/**
+  * main - Prints a text
+  *
+  * Description: using the main function
+  * this program prints "Programming is like building a multilingual puzzle
+  * Return: Always 0 (Success)
+  */
 
 int main(void)
 
 {
 
 	puts("\"Programming is like building a multilingual puzzle");
+
 	return (0);
 
 }
