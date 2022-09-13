@@ -1,9 +1,7 @@
-#include "0-putchar.c"
+#include "main.h"
 
 /**
- * main - prints the string "0-putchar.c" from a character array.
- * Description: using the main function
- * this program prints _putchar, followed by a new line
+ * main - prints putchar.
  * Return: 0 on success.
  */
 
@@ -11,13 +9,12 @@ int main(void)
 
 {
 
-	char c[] = "Holberton";
+	char c[] = "_putchar";
 
 	int i;
 
 
-
-	for (i = 0; i < 9; i++)
+	for (i = 0; i < 8; i++)
 
 	{
 
