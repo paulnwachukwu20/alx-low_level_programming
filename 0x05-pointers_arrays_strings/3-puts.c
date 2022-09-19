@@ -1,29 +1,26 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * _puts - prints to string
- * @str: Strin to print
- * on success: return no error
- * Return: Nothing
+ * _puts - prints a string
+ * @str:  parameter
+ * Description: A function that prints a string
+ * Return: void
  */
 
 void _puts(char *str)
 
 {
 
-	int i = 0;
-
-
-	while (*(str + i) != '\0')
+	while (*str != '\0')
 
 	{
 
-		_putchar(*(str + i));
+		_putchar(*str);
+
+		str++;
 
 	}
 
+	_putchar('\n');
 
-
-	_putchar('10');
 }
