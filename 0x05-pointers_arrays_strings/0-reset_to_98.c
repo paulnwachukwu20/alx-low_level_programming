@@ -1,11 +1,10 @@
-#include "holberton.h"
+#include  "main.h"
 
 /**
- * reset_to_98 - this function reset the number
- * @n: is the pointer
- *  Return: Always 0
+ * reset_to_98 - update value of input
+ * @n: pointer to int
+ * Return: Nothing
  */
-
 void reset_to_98(int *n)
 
 {
